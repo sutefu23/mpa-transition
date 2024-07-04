@@ -1,0 +1,11 @@
+.target {
+  view-transition-name: target;
+}
+
+.target.sub {
+  view-transition-name: target-sub;
+}
+
+body.b .target.sub {
+  background-color: #009688;
+}

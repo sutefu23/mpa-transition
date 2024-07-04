@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  margin: 0;
+}
+
+.root {
+  margin: 0;
+  min-height: 100vh;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.target {
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  height: 100px;
+  width: 100px;
+}
+
+body.a {
+  background-color: #ffffff;
+}
+
+body.b {
+  background-color: #eeeeee;
+}
+
+body.a .target {
+  background-color: #263238;
+}
+
+body.b .target {
+  background-color: #e91e63;
+}

@@ -1,0 +1,16 @@
+.target {
+  view-transition-name: target;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotateZ(0) scale(0);
+  }
+  to {
+    transform: rotateZ(360deg) scale(1);
+  }
+}
+
+::view-transition-new(target) {
+  animation: 1s linear both rotate;
+}

@@ -1,0 +1,14 @@
+.target {
+  view-transition-name: target;
+}
+
+body.a .target {
+  height: 64px;
+  width: 96px;
+}
+
+body.b .target {
+  background-color: #222222;
+  height: 315px;
+  width: 560px;
+}
